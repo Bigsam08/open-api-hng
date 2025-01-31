@@ -18,14 +18,14 @@ run "node server.js" to start the server
 
 ## api documentation
 get user details
------------------------
+
 * method: GET
 * api_endpoint: https://openapi-0eed.onrender.com/api
 
 status: OK (200)  
-response:   
-json  
+response: json  
 {  
-	email: 'example@gmail.com',  
-	current_datetime: "2025-01-31T22:41:55.957Z"   
+    email: 'example@gmail.com',  
+    current_datetime: "2025-01-31T22:41:55.957Z"  
+    githuburl: "https://github.com/Bigsam08/open-api-hng"   
 }  
